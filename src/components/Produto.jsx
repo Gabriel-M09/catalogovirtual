@@ -15,6 +15,7 @@ function Produto(props) {
             <Typography variant="body2" color="text.secondary">
                 {props.descricao}
             </Typography>
+            {props.preco}
         </CardContent>
         <CardActions>
             <Button size="large">
